@@ -23,8 +23,8 @@ class Ratings(models.Model):
 class Company(models.Model):
     title = models.CharField(max_length=30)
     description = models.TextField(max_length=30)
-    website = models.TextField(max_length=30)
-    email = models.TextField(max_length=30)
+    website = models.CharField(max_length=30)
+    emailField = models.EmailField(max_length=30)
     phone = models.TextField(max_length=30)
     address = models.TextField(max_length=30)
     categories = models.TextField(max_length=30)
