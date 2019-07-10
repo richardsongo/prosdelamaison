@@ -24,11 +24,16 @@ class Company(models.Model):
     title = models.CharField(max_length=30)
     description = models.TextField(max_length=30)
     website = models.CharField(max_length=30)
+    services = models.CharField(max_length=30)
     emailField = models.EmailField(max_length=30)
     phone = models.TextField(max_length=30)
     address = models.TextField(max_length=30)
     categories = models.TextField(max_length=30)
     rating = models.TextField(max_length=30)
     reviews = models.TextField(max_length=30)
-    photos = models.TextField(max_length=30)
+    featuredImage = models.ImageField(max_length=30)
+    photos = models.ImageField(max_length=30)
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+    upload = models.FileField()
+    
 
