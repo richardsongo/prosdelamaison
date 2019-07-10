@@ -29,4 +29,5 @@
     └── tests # tests specific to every app
         ├── app_name
         └── app_name_1
+
 </div>
