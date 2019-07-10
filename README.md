@@ -1,5 +1,6 @@
 # prosdelamaison
 
+<div>
 .
 └── project_name # top level, everything under here is in git repo
     ├── Dockerfile
@@ -28,3 +29,4 @@
     └── tests # tests specific to every app
         ├── app_name
         └── app_name_1
+</div>
