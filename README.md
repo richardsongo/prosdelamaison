@@ -11,8 +11,9 @@
 - 
 
 APPS
- - Django-imgix
- - 
+ - django-imgix
+ - django-rated-reviews
+ - Recaptcha
  
 
 
