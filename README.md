@@ -1,5 +1,26 @@
 # prosdelamaison
 
+
+
+
+- Jinja 2
+- Postgres
+- User subdomains
+- React
+- Imgix
+- 
+
+APPS
+ - Django-imgix
+ - 
+ 
+
+
+
+
+
+
+
 <div>
 .
 └── project_name # top level, everything under here is in git repo
